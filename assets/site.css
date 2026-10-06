@@ -581,3 +581,9 @@ body.ex-run .hero{display:none}body.ex-run #exam-app{margin-top:0!important}
 .sl li.nosrc span{display:block;margin-top:.2rem;color:var(--ink-2)}
 /* 長網址、路徑不撐破版面 */
 .ak summary .qq,.lab-steps .la,.lab-steps .le span,.sl q{min-width:0;overflow-wrap:anywhere}
+/* 雲端同步（導覽列） */
+.sync{display:flex;flex-wrap:wrap;align-items:center;gap:.3rem .5rem;margin:.2rem .9rem .6rem;padding:.5rem .7rem;border-radius:var(--r-s);background:var(--surface-2);border:1px solid var(--line);font-size:.8rem;color:var(--ink-2)}
+.sync small{color:var(--ink-3);overflow-wrap:anywhere}
+.sync small.err{color:var(--rose);flex-basis:100%}
+.sync .btn.sm{padding:.2rem .6rem;min-height:1.8rem;font-size:.78rem}
+.seg button small{opacity:.7;margin-left:.15rem;font-weight:600}
